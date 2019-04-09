@@ -1,20 +1,6 @@
 version: '3.1'
 
 services:
-#  python:
-#    image: python/pyspark-notebook 
-#    container_name: python 
-#    hostname: python
-#    restart: always
-#    ports:
-#       - "8888:8888"
-#    container_name: python
-#    hostname: python
-#    networks:
-#      net:
-#        ipv4_address: 171.69.1.1
-#    restart: always
-
   python:
     image: python:3.6-alpine
     container_name: python
