@@ -1,0 +1,16 @@
+#Cassandra
+
+docker run --name cassandra -v /Users/danielpaes/Documents/Concordia/CEB-1250/environment/cassandra/data:/var/lib/cassandra/ -d cassandra:3.0
+
+#Cassandra database
+
+
+
+#Neo4j
+docker run --publish=7474:7474 --publish=7687:7687 -v /Users/danielpaes/Documents/Concordia/CEB-1250/environment/neo4j/data:/data neo4j
+
+#Neo4j database
+
+https://neo4j.com/developer/movie-database/#_example_queries
+
+
